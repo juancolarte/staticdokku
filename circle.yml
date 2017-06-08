@@ -1,6 +1,6 @@
 dependencies:
   pre:
-    - sudo apt-get install apache2-utils
+    - sudo apt-get install less
 
 deployment:
   production:
