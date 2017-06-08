@@ -1,3 +1,7 @@
+dependencies:
+  pre:
+    - sudo apt-get install apache2-utils
+
 deployment:
   production:
     branch: master
