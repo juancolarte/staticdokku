@@ -1,0 +1,6 @@
+deployment:
+  production:
+    branch: master
+    commands:
+      - git remote add dokku dokku@ga.barista-v.com:my-app
+      - git push dokku master
