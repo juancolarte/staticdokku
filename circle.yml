@@ -6,5 +6,10 @@ deployment:
   production:
     branch: master
     commands:
-      - git remote add dokku dokku@ga.barista-v.com:my-app
+      - git remote add dokku dokku@ga.barista-v.com:master
       - git push dokku master
+  staging:
+    branch: staging
+    commands:
+      - git remote add dokku dokku@ga.barista-v.com:staging
+      - git push dokku staging:master
